@@ -1,0 +1,21 @@
+
+Resolved issues:
+    removing unnessesary loops; unnesecary loops removed
+    check if gives same output as before after removing unnesecary loops: yes gives same output
+    check if there is any imporvement in processing time: seems no improvement and even might have increased the time because
+    all routes are getting passed to the functions
+    Remove local trains from database to solve local station bug
+    removing local trains did not solve local station bug: consider reinstiating local trains
+    
+    Solve local station bug: this bug seems solved after adding half train ranking(not including local trains)
+    giving extra point to stations with more trains which complete only halfroute; added this feature: seems to solve local stn bug
+    filter station list to improve speed; station list already filtered;speed not improved
+    
+    from adding  length+100*lentgth now only adding length
+    storing length and reusing it
+    Consider including local stations:check performance after half route ranking feature;local trains do not create much difference
+
+pending issues:
+    
+    
+    check each high ranking station
